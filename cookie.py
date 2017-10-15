@@ -5,7 +5,7 @@ base = set()
 alert_count = 0
 duplicate_count = 0
 eight_count = 0
-nine_count = 0
+
 for line in source:
     newline = []
     for c in line:
@@ -22,7 +22,6 @@ for line in source:
         debugg = ''.join(newline)
         debugging.write('%s\n' % debugg)
         newline.insert(0, '7')
-        nine_count += 1
     new_string = ''.join(newline)
     if new_string not in base:
         base.add(new_string)
