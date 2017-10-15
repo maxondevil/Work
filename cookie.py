@@ -1,5 +1,4 @@
-target = open('Result_FRESH_base.txt', 'w')
-source = open('baza_23-45_Zh_verkhnyaya_chast_goroda.txt', 'r')
+
 debugging = open('Debug.txt', 'w')
 base = set()
 alert_count = 0
